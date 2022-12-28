@@ -1,0 +1,218 @@
+.v-ads-navbar {
+    width: 100%;
+}
+
+.v-ads-logo_title {
+    display: flex;
+}
+
+.v-ads-logo {
+    position: absolute;
+    top: 12px;
+    margin-left: 10px;
+    width: 90px;
+    height: 80px;
+    margin-right: 10px;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.v-ads-logo:hover {
+    transform: scale(1.15);
+    filter: brightness(80%);
+}
+
+.v-ads-logo_title h1 {
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 550px;
+    font-size: 45px;
+}
+
+.v-ads-logo_title p {
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 390px;
+    font-size: 20px;
+}
+
+.v-ads-web_name {
+    position: absolute;
+    top: 12px;
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(90deg, #285abe, #ff731d 85%);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 15px;
+    font-size: 30px;
+    left: 110px;
+}
+
+.v-ads-tag_line {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(90deg, #285abe, #ff731d 85%);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    position: absolute;
+    left: 113px;
+    padding: 0;
+    top: 65px;
+    font-size: 13px;
+}
+
+.v-ads-nav_background {
+    filter: brightness(45%);
+    height: 230px;
+    width: 100%;
+}
+
+.v-ads-nav_options {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    font-weight: 500;
+}
+
+.v-ads-options {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    margin-right: 80px;
+}
+
+.v-ads-options:hover {
+    color: #ff731d;
+}
+
+.ads-view {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgba(150, 150, 150, 0.795);
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid rgba(150, 150, 150, 0.795);
+    min-height: 50px;
+    text-align: center;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+th {
+    background-color: #2C5ABB;
+    height: 30px;
+    color: white;
+}
+
+
+.ad_pic {
+    width: 100px;
+    height: 70px;
+    border-radius: 3%;
+    object-fit: fill;
+    margin: 0px;
+}
+
+.available {
+    color: white;
+    background-color: rgb(0, 184, 0);
+    font-weight: 500;
+    padding: 12px 6px;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+.booked {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    font-weight: 500;
+    padding: 12px 6px;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+.edit-btn {
+    background-color: #FF731D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+
+.edit-btn:hover {
+    background-color: #FF731D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 5px;
+}
+
+.del-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+.del-btn:hover {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+}

@@ -1,0 +1,24 @@
+.h-logo_title {
+    text-align: center;
+}
+
+.h-logo {
+    margin-top: 15px;
+    width: 90px !important;
+    height: 80px !important;
+}
+
+.h-web_name {
+    top: 12px;
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(90deg, #285abe, #ff731d 85%);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.menu-hr {
+    margin-top: 0 !important;
+}
